@@ -1,0 +1,129 @@
+body {
+margin:0px;
+padding:0px;
+}
+
+.header
+{
+  height:auto;
+  width:100%;
+    box-shadow: 15px;
+}
+.mobile
+{
+ height:45px;
+ width:20%;
+ border-right: 0.2px solid white;
+ background-color: rgb(33, 26, 26);
+ line-height:40px;
+ float:left;
+}
+.header .mobile a{
+  text-decoration:none;
+  margin-left: 30px;
+  color: white;
+}
+.header .mobile a i{
+  padding:10px;
+}
+.email
+{
+ height:45px;
+ width:23%;
+ border-right: 0.2px solid white;
+ background-color: rgb(33, 26, 26);
+ line-height:40px;
+ float:left;
+}
+.header .email a{
+  text-decoration:none;
+  margin-left: 30px;
+  color: white;
+}
+.header .email a i{
+  padding:10px;
+}
+.header .social{
+  height:45px;
+  width:56.8%;
+  float:left;
+  background-color: rgb(33, 26, 26);
+}
+.header .social .Social_media {
+ display:block;
+ float: right !important;
+ line-height:43px;
+ margin-right:20px;
+}
+.header .social .Social_media a{
+  margin-right:15px
+}
+.header .social .Social_media a i{
+  color: aliceblue;
+}
+
+.title{
+  height:auto;
+  width:100%;
+  
+}
+.title .logo{
+ height:110px;
+ width:25%;
+ float: left;
+ margin-bottom: 30px;
+
+}
+.title .logo img{
+  display: block;
+  margin: auto;
+}
+.title .inst{
+  height: 110px;
+  width:75%;
+  float:left;
+  
+ }
+.title .inst h1{
+  text-align: center;
+  line-height: 100px;
+  color: darkblue;
+  font-weight:800;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:37px;
+ }
+ .title .inst span{
+  display: block;
+  font-size: 25px;
+  text-align:right;
+  padding-right:10%;
+  margin-top:-28px;
+  color: brown;
+ }
+
+
+ .menu{
+  float:left;
+  height: 50px;
+  width: 100%;
+  background-color:rgb(33, 26, 26);
+  margin-bottom: 10px;
+}
+.menu nav ul li{
+  display: inline-block;
+}
+.menu nav ul li .nav{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 60px;
+  padding: 3px 20px;
+  line-height: 41px;
+  border-right: 0.2px solid white;
+}
+.slider{
+  height:350px;
+  width:85%;
+  margin:auto;
+  display: block;
+  }
